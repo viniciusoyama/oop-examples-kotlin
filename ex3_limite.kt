@@ -97,7 +97,7 @@ fun mainTransferenciaNaoOK() {
     var lidia = Cliente("Lidia Lourane")
     var vanessa = Cliente("Vanessa")
     var contaLidia = ContaCorrente(lidia, 0.0)
-    var contaVanessa = ContaCorrente(vanessa, 100.0)
+    var contaVanessa = ContaPoupanca(vanessa, 100.0)
     
     println("Saldo Inicial Lidia:" + contaLidia.getSaldo())
     println("Saldo Inicial Vanessa:" + contaVanessa.getSaldo())
