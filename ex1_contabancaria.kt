@@ -59,13 +59,13 @@ fun mainCliente() {
 fun mainContaBancaria() {
     println("----- Main Poupanca -----")
     var lidia = Cliente("Lidia Lourane")
-    var vanessa = Cliente("Vitória da Vinci")
+    var vitoria = Cliente("Vitória da Vinci")
 
     var contaLidia = ContaBancaria(lidia, 100.0)
-    var contaVanessa = ContaBancaria(vanessa)
+    var contavitoria = ContaBancaria(vitoria)
     
     println("Saldo Lidia:" + contaLidia.getSaldo())
-    println("Saldo Vanessa:" + contaVanessa.getSaldo())
+    println("Saldo Vitoria:" + contavitoria.getSaldo())
     println("==============================\n\n")
 }
 
